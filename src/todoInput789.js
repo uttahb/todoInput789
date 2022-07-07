@@ -6,7 +6,7 @@ export const TodoInput789 = ({ refetch }) => {
   const handleAdd = async () => {
     setSubmitting(true)
     try {
-      const res = await fetch(`${env.BLOX_FUNCTION_URL}/addTodo`, {
+      const res = await fetch(`${env.BLOX_FUNCTION_URL}/addTodo789`, {
         method: 'post',
         body: JSON.stringify({ name: todo }),
       })
